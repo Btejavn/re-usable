@@ -14,4 +14,4 @@ jobs:
     runs-on: ubuntu-latest
 
     # Use the reusable workflow defined in another repository
-    uses: btejavn/https://github.com/Btejavn/re-usable@main
+    uses: btejavn/https://github.com/Btejavn/new-az-terraform.git@main
