@@ -1,0 +1,17 @@
+name: 'Workflow in Another Repository'
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  use-reusable-workflow:
+    runs-on: ubuntu-latest
+
+    # Use the reusable workflow defined in another repository
+    uses: btejavn/https://github.com/Btejavn/re-usable@main
